@@ -175,9 +175,9 @@ section .title::after{
     filter: brightness(90%);
 }
 
-/* #home{
+#home{
     background-image: url(".../assets/img/myHeader.jpg");
-} */
+}
 
   
 /* home section styling */
