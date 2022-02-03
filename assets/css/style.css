@@ -34,6 +34,7 @@ html{
 /* all similar content styling codes */
 section{
     padding: 100px 0;
+    
 }
 .max-width{
     max-width: 1300px;
@@ -45,13 +46,21 @@ section{
 }
 .about .about-content, 
 .services .serv-content,
-.skills .skills-content,
-.contact .contact-content{
+.skills , .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
+
+
+.skills-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
 section .title{
     position: relative;
     text-align: center;
@@ -164,6 +173,10 @@ section .title::after{
 }
 .scroll-up-btn:hover{
     filter: brightness(90%);
+}
+
+#home{
+    background-image: url(".../assets/img/myHeader.jpg");
 }
 
   
@@ -413,10 +426,12 @@ section .title::after{
   }
   
   .column img {
-    margin-top: 8px;
+    margin-top: 10px;
     vertical-align: middle;
+
   }
-  
+
+
   /* Style the buttons */
   .btn {
     border: none;
