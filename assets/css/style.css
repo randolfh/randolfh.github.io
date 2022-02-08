@@ -137,7 +137,7 @@ section .title::after{
     color: #E9E8F7;
 }
 .navbar.sticky .menu li a:hover{
-    color: black;
+    color: #207567;
 }
 
 /* menu btn styling */
@@ -179,11 +179,10 @@ section .title::after{
     background-image: url(".../assets/img/myHeader.jpg");
 }
 
-  
-/* home section styling */
+  /* home section styling */
 .home{
     display: flex;
-    background-color: #C2CCCE;
+    background-color: #6B0FE2;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -258,25 +257,25 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: black;
+    background: #6B0FE2;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #C2CCCE;
+    border: 2px solid #6B0FE2;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: #C2CCCE;
+    color: #6B0FE2;
     background: none;
 }
 
 /* services section styling */
 .services, .teams{
     color:#fff;
-    background: #C2CCCE;
+    background: #6B0FE2;
 }
 .services .title::before,
 .teams .title::before{
@@ -293,7 +292,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: #C2CCCE;
+    background: #141C3A;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -452,6 +451,23 @@ section .title::after{
   }
 
 /* end of photogrid here */
+
+
+/* Portfolio */
+
+.portfolio-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 10px;
+}
+
+.pf-container-1,.pf-container-2,.pf-container-3
+.pf-container-4, .pf-container-5, .pf-container-6{
+    padding: 10px;
+    cursor: pointer;
+}
+
 
 
 
